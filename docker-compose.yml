@@ -2,4 +2,4 @@ clean-es-index:
   image: "registry.cn-hangzhou.aliyuncs.com/srzyhead/node:7.10.0"
   volumes:
     - ./source:/node
-  command: npm install && babel-node ./src/deleteExpireIndex.js
+  command: ./Run.sh

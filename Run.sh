@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-babel-node ./src/${1}.js
+npm install && babel-node ./src/deleteExpireIndex.js
