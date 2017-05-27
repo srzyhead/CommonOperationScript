@@ -1,0 +1,39 @@
+# maven ignore
+target/
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+*.pid
+.tmp
+
+###############
+.DS_Store
+node_modules
+dist
+.idea
+
+##push server
+#/*
+#!/dist
+#!server.js
+#!/logs
+#!package.json
+#!process.json
+#*.log
+#*.pid
